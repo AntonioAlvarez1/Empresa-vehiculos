@@ -39,6 +39,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.ButtonIngreso = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textplaca
@@ -131,11 +132,22 @@
             this.ButtonIngreso.UseVisualStyleBackColor = true;
             this.ButtonIngreso.Click += new System.EventHandler(this.ButtonIngreso_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(268, 169);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Alquileres";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(391, 216);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.ButtonIngreso);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button ButtonIngreso;
+        private System.Windows.Forms.Button button1;
     }
 }
 

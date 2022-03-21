@@ -54,5 +54,11 @@ namespace Empresa_vehiculos
             }
            
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_Alquileres form = new Form_Alquileres();
+            form.Show();
+        }
     }
 }
