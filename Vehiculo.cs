@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Empresa_vehiculos
 {
-    internal class Vehiculos
+    internal class Vehiculo
     {
         public string Placa { get; set; }
         public string Marca { get; set; }
-        public string Modelo { get; set; }
+        public int Modelo { get; set; }
         public string Color { get; set; }
         public decimal PrecioKilometro { get; set; }
 
